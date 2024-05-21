@@ -1434,7 +1434,7 @@
 											"font": "Arial;13;1",
 											"left": 789,
 											"top": 239,
-											"width": 266.52880859375,
+											"width": 338.0986328125,
 											"height": 13,
 											"text": "Sistema"
 										},
@@ -1469,7 +1469,7 @@
 									"font": "Arial;13;0",
 									"left": 784,
 									"top": 232,
-									"width": 276.52880859375,
+									"width": 348.0986328125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGPm5RKn6hryI0="
@@ -1496,7 +1496,7 @@
 									"font": "Arial;13;0",
 									"left": 784,
 									"top": 257,
-									"width": 276.52880859375,
+									"width": 348.0986328125,
 									"height": 10
 								},
 								{
@@ -1521,7 +1521,7 @@
 											"font": "Arial;13;0",
 											"left": 789,
 											"top": 272,
-											"width": 266.52880859375,
+											"width": 338.0986328125,
 											"height": 13,
 											"text": "+mostrarResultados(nombre: String): Cancion",
 											"horizontalAlignment": 0
@@ -1538,16 +1538,16 @@
 											"font": "Arial;13;0",
 											"left": 789,
 											"top": 287,
-											"width": 266.52880859375,
+											"width": 338.0986328125,
 											"height": 13,
-											"text": "+hacerOferta(usuario: String): Credito",
+											"text": "+hacerOferta(ofertaLote: int, ofertaPrecio: double): Credito",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 784,
 									"top": 267,
-									"width": 276.52880859375,
+									"width": 348.0986328125,
 									"height": 38
 								},
 								{
@@ -1587,7 +1587,7 @@
 							"containerChangeable": true,
 							"left": 784,
 							"top": 232,
-							"width": 275.52880859375,
+							"width": 347.0986328125,
 							"height": 73,
 							"nameCompartment": {
 								"$ref": "AAAAAAGPm5RKn6hqQxE="
@@ -4336,8 +4336,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGPm57xeMf2lKI="
 									},
-									"name": "usuario",
-									"type": "String"
+									"name": "ofertaLote",
+									"type": "int"
 								},
 								{
 									"_type": "UMLParameter",
@@ -4349,6 +4349,15 @@
 										"$ref": "AAAAAAGPm5RAmag+xsI="
 									},
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGPm+FKaUc7Ers=",
+									"_parent": {
+										"$ref": "AAAAAAGPm57xeMf2lKI="
+									},
+									"name": "ofertaPrecio",
+									"type": "double"
 								}
 							]
 						}
