@@ -63,7 +63,7 @@
 											"top": 39,
 											"width": 252.0751953125,
 											"height": 13,
-											"text": "Usuario"
+											"text": "src.main.java.Usuario"
 										},
 										{
 											"_type": "LabelView",
@@ -271,7 +271,7 @@
 											"top": 182,
 											"width": 252.0751953125,
 											"height": 13,
-											"text": "+canciones: Cancion",
+											"text": "+canciones: src.main.java.Cancion",
 											"horizontalAlignment": 0
 										}
 									],
@@ -305,7 +305,7 @@
 											"top": 205,
 											"width": 252.0751953125,
 											"height": 13,
-											"text": "+comprarCreditos(creditos: Credito): void",
+											"text": "+comprarCreditos(creditos: src.main.java.Credito): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -322,7 +322,7 @@
 											"top": 220,
 											"width": 252.0751953125,
 											"height": 13,
-											"text": "+comprarCancion(cancion: Cancion): void",
+											"text": "+comprarCancion(cancion: src.main.java.Cancion): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -339,7 +339,7 @@
 											"top": 235,
 											"width": 252.0751953125,
 											"height": 13,
-											"text": "+buscarCancion(nombre: String): Cancion",
+											"text": "+buscarCancion(nombre: String): src.main.java.Cancion",
 											"horizontalAlignment": 0
 										},
 										{
@@ -356,7 +356,7 @@
 											"top": 250,
 											"width": 252.0751953125,
 											"height": 13,
-											"text": "+descargarCancion(): Cancion",
+											"text": "+descargarCancion(): src.main.java.Cancion",
 											"horizontalAlignment": 0
 										},
 										{
@@ -736,7 +736,7 @@
 											"top": 143,
 											"width": 163.95703125,
 											"height": 13,
-											"text": "Cancion"
+											"text": "src.main.java.Cancion"
 										},
 										{
 											"_type": "LabelView",
@@ -1188,7 +1188,7 @@
 											"top": 623,
 											"width": 163.96337890625,
 											"height": 13,
-											"text": "Credito"
+											"text": "src.main.java.Credito"
 										},
 										{
 											"_type": "LabelView",
@@ -1470,7 +1470,7 @@
 											"top": 239,
 											"width": 338.0986328125,
 											"height": 13,
-											"text": "Sistema"
+											"text": "src.main.java.Sistema"
 										},
 										{
 											"_type": "LabelView",
@@ -1557,7 +1557,7 @@
 											"top": 272,
 											"width": 338.0986328125,
 											"height": 13,
-											"text": "+mostrarResultados(nombre: String): Cancion",
+											"text": "+mostrarResultados(nombre: String): src.main.java.Cancion",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1574,7 +1574,7 @@
 											"top": 287,
 											"width": 338.0986328125,
 											"height": 13,
-											"text": "+hacerOferta(ofertaLote: int, ofertaPrecio: double): Credito",
+											"text": "+hacerOferta(ofertaLote: int, ofertaPrecio: double): src.main.java.Credito",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1682,7 +1682,7 @@
 											"top": 527,
 											"width": 174.08154296875,
 											"height": 13,
-											"text": "Oferta"
+											"text": "src.main.java.Oferta"
 										},
 										{
 											"_type": "LabelView",
@@ -1913,7 +1913,7 @@
 											"top": 527,
 											"width": 158.14892578125,
 											"height": 13,
-											"text": "OfertaEspecial"
+											"text": "src.main.java.OfertaEspecial"
 										},
 										{
 											"_type": "LabelView",
@@ -3380,7 +3380,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Usuario",
+					"name": "src.main.java.Usuario",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -3596,7 +3596,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGPm50Cb8TNY7s="
 									},
-									"type": "Cancion",
+									"type": "src.main.java.Cancion",
 									"direction": "return"
 								}
 							]
@@ -3934,7 +3934,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Cancion",
+					"name": "src.main.java.Cancion",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4222,7 +4222,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Credito",
+					"name": "src.main.java.Credito",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4357,7 +4357,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Sistema",
+					"name": "src.main.java.Sistema",
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -4436,7 +4436,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Oferta",
+					"name": "src.main.java.Oferta",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4527,7 +4527,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "OfertaEspecial",
+					"name": "src.main.java.OfertaEspecial",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",

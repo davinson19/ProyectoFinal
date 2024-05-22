@@ -1,3 +1,4 @@
+package src.main.java;
 
 /**
  * @author David Hernández Carmona
@@ -27,7 +28,7 @@ public class Sistema {
     }
 
     /**
-     * @param usuario Usuario al que se le aplica la oferta
+     * @param usuario src.main.java.Usuario al que se le aplica la oferta
      * @return La oferta de créditos que se le hace al usuario
      */
     public Credito hacerOferta(int ofertaLote, double ofertaPrecio) {
