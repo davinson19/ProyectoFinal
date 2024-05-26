@@ -8,9 +8,6 @@ import src.main.java.Oferta;
 /**
  * Clase de prueba para la clase Oferta.
  * Esta clase contiene casos de prueba para verificar el funcionamiento correcto de la clase Oferta.
- *
- * @author David Hernández Carmona
- * @version 1.0
  */
 public class OfertaTest {
 
