@@ -28,7 +28,8 @@ public class Sistema {
     }
 
     /**
-     * @param usuario src.main.java.Usuario al que se le aplica la oferta
+     * @param ofertaLote Nuevo lote de créditos que se le ofrece al usuario
+     * @param ofertaPrecio Nuevo precio de los créditos que se le ofrece al usuario
      * @return La oferta de créditos que se le hace al usuario
      */
     public Credito hacerOferta(int ofertaLote, double ofertaPrecio) {

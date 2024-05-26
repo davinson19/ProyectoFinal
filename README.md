@@ -79,28 +79,6 @@ Copiar código
 cd nombre_del_repositorio
 ```
 
-Compilar y ejecutar la aplicación:
-
-Copiar código
-```bash
-./gradlew build
-./gradlew run
-```
-
-Generar la documentación Javadoc:
-
-Copiar código
-```bash
-./gradlew javadoc
-```
-
-Ejecutar los testCase:
-
-Copiar código
-```bash
-./gradlew test
-```
-
 ---
 
 ## Contacto
